@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-component-nudj
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:07ec5d124fdf471bac78cf26fbdcc15c
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:b3215b1bfffe05926215c53e51454525656b9262670d7e9fd60370eab8a557d1
         name: my-python
         ports:
         - containerPort: 8081
